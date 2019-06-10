@@ -1115,9 +1115,30 @@ a {
     }
 
     .home-testimonials-section {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+
         background-color: #fff;
         padding-top: 6rem;
         padding-bottom: 6rem;
+
+        p {
+            width: 70%;
+            margin-top: 1rem;
+        }
 
         h3 {
             color: $nordic-purle;
@@ -1141,8 +1162,16 @@ a {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
 
+
+
         .home-cta-intro-title {
             color: $nordic-purle;
+            width: 70%;
+            margin-bottom: 1rem;
+        }
+
+        .home-cta-body-text {
+            width: 70%;
         }
 
         // h2 {
@@ -1606,6 +1635,48 @@ a {
                 .about-portfolio-item-set {
                     &:first-of-type {
                         margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-home-section {
+        .home-call-to-action-section {
+            .home-cta-icons-section {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+
+                .home-cta-divider {
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 764px) and (min-width: 300px) {
+    .main-home-section {
+        .home-services-section {
+            .home-services-group {
+                .home-services-item {
+                    &:first-of-type {
+                        margin-right: 0;
+                        margin-bottom: 2rem;
                     }
                 }
             }

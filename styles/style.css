@@ -1129,9 +1129,27 @@ select {
         .main-home-section .home-services-section .home-services-group .home-services-item p {
           margin-bottom: 1rem; }
   .main-home-section .home-testimonials-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     background-color: #fff;
     padding-top: 6rem;
     padding-bottom: 6rem; }
+    .main-home-section .home-testimonials-section p {
+      width: 70%;
+      margin-top: 1rem; }
     .main-home-section .home-testimonials-section h3 {
       color: #581793; }
   .main-home-section .home-call-to-action-section {
@@ -1151,7 +1169,11 @@ select {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
     .main-home-section .home-call-to-action-section .home-cta-intro-title {
-      color: #581793; }
+      color: #581793;
+      width: 70%;
+      margin-bottom: 1rem; }
+    .main-home-section .home-call-to-action-section .home-cta-body-text {
+      width: 70%; }
     .main-home-section .home-call-to-action-section .home-cta-icons-section {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1481,7 +1503,31 @@ select {
         margin-right: 0; } }
 @media all and (max-width: 680px) and (min-width: 300px) {
   .about-us-main-section .about-us-portfolio-sample-section .about-us-portfolio-sample-group .about-portfolio-item-set:first-of-type {
-    margin-right: 0; } }
+    margin-right: 0; }
+
+  .main-home-section .home-call-to-action-section .home-cta-icons-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .main-home-section .home-call-to-action-section .home-cta-icons-section .home-cta-divider {
+      margin-top: 2rem;
+      margin-bottom: 2rem; } }
+@media all and (max-width: 764px) and (min-width: 300px) {
+  .main-home-section .home-services-section .home-services-group .home-services-item:first-of-type {
+    margin-right: 0;
+    margin-bottom: 2rem; } }
 @media all and (max-width: 990px) and (min-width: 300px) {
   .hamburger-menu-button {
     display: block; }
