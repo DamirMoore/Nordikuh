@@ -1511,7 +1511,37 @@ select {
       .about-us-main-section .about-us-portfolio-sample-section .about-us-portfolio-sample-group .about-portfolio-item-set:first-of-type {
         margin-right: 0; }
       .about-us-main-section .about-us-portfolio-sample-section .about-us-portfolio-sample-group .about-portfolio-item-set .about-us-portfolio-sample-item:first-of-type {
-        margin-right: 0; } }
+        margin-right: 0; }
+
+  .main-contact-section {
+    padding-left: 0;
+    padding-right: 0; }
+    .main-contact-section .contact-form-section {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      width: 100%;
+      margin-bottom: 3rem; }
+      .main-contact-section .contact-form-section form {
+        width: 100%; }
+    .main-contact-section .faq-section {
+      width: 90%; } }
+@media all and (max-width: 400px) and (min-width: 300px) {
+  .main-contact-section {
+    padding-left: 0;
+    padding-right: 0; } }
 @media all and (max-width: 505px) and (min-width: 300px) {
   .services-main-section .services-items-section .services-item {
     width: 90%;
@@ -1548,7 +1578,30 @@ select {
     flex-wrap: wrap; }
     .main-home-section .home-call-to-action-section .home-cta-icons-section .home-cta-divider {
       margin-top: 2rem;
-      margin-bottom: 2rem; } }
+      margin-bottom: 2rem; }
+
+  .main-contact-section .contact-form-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 3rem; }
+    .main-contact-section .contact-form-section form {
+      width: 90%; }
+  .main-contact-section .faq-section {
+    width: 90%; } }
 @media all and (max-width: 764px) and (min-width: 300px) {
   .main-home-section .home-services-section .home-services-group .home-services-item:first-of-type {
     margin-right: 0;
