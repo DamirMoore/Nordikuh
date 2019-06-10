@@ -9,14 +9,15 @@
     content="Capture everything that your brand embodies and aspires to in a visual design that's uniquely yours. Crafted by our skilled team of professionals.">
   <title>Contact Us - Nordikuh - Branding and Logo Design</title>
   <!-- css imports -->
-  <!-- <link rel='stylesheet' type='text/css' media='screen' href='styles/uikit.css'> -->
+  <link rel='stylesheet' type='text/css' media='screen' href='styles/uikit.css'>
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.1/css/all.css'
     integrity='sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf' crossorigin='anonymous'>
   <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
   <link rel='icon' type='image/png' href='images/Maven Consulting favicon.png'>
+
   <!-- js imports -->
-  <!-- <script src='js/uikit.min.js'></script>
-<script src='js/uikit-icons.min.js'></script> -->
+  <script src='js/uikit.min.js'></script>
+  <!-- <script src='js/uikit-icons.min.js'></script> -->
   <script src='js/respond.js/respond.js'></script>
   <script src='js/lazysizes.js' async=''></script>
   <script src='js/main.js'></script>
@@ -25,15 +26,14 @@
 <body>
   <!-- Navbar Section -->
   <header class='navbar-section'>
-    <!-- <h1>Logo</h1>
-<h1>Maven Consulting</h1> -->
-    <!-- <div>
-<a href='index.html'>
-<img class='lazyload' data-src='images/Maven Consulting Logo distressed.png'
-src='images/image placeholder.jpg' width='250px' height='250px' alt='Maven
-Consulting Logo' />
-</a>
-</div> -->
+    <div class="logo-section">
+      <!-- <a href='index.html'>
+    <img class='lazyload' data-src='images/Maven Consulting Logo distressed.png'
+    src='images/image placeholder.jpg' width='250px' height='250px' alt='Maven
+    Consulting Logo' />
+    </a> -->
+      <h1><a href="index.html">Nordikuh</a></h1>
+    </div>
     <nav class='navbar'>
       <a href='index.html'>Home</a>
       <a href='services.html'>Services</a>
@@ -64,9 +64,129 @@ Consulting Logo' />
       <a href='contact.html'>Contact</a>
     </nav>
   </aside>
+
+  <!-- Main Contact Section -->
+  <main class="main-contact-section">
+    <!-- Contact Intro -->
+    <section class="contact-intro-section">
+      <h2 class="nordikuh-alice-font">Contact Us</h2>
+      <p>
+        We'll always make time to hear a new brand story or brainstorm a fresh design idea. Schedule a free 15-minute
+        discovery call to get our creative juices flowing.
+      </p>
+      <h3 class="nordikuh-alice-font">Studio Hours</h3>
+      <p>Monday-Thursday | 9am-4pm CT</p>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form-section">
+      <form method="POST" action="https://formspree.io/mavenconsultingincorporated@gmail.com">
+        <input name="Name" class="input-contact-item contact-name" type="text" placeholder="Name">
+        <input name="Email" class="input-contact-item contact-email" type="email" placeholder="Email Address">
+        <input name="Business Name" class="input-contact-item contact-business-name" type="text"
+          placeholder="Business Name">
+        <input name="Where are you located?" class="input-contact-item contact-location" type="text"
+          placeholder="Where are you located?">
+        <input name="How did you hear about us?" class="input-contact-item contact-hear" type="text"
+          placeholder="How did you hear about us?">
+        <div class="contact-check-box-section">
+          <div>
+            <input type="checkbox" id='discovery' name="15 minute discovery Call" value="discovery">
+            <label for="discovery">15 minute discovery Call</label>
+          </div>
+          <div>
+            <input type="checkbox" id='design-quote' name="Design Quote" value="design-quote">
+            <label for="design-quote">Design Quote</label>
+          </div>
+          <div>
+            <input type="checkbox" id='branding' name="Branding" value="branding">
+            <label for="branding">Branding</label>
+          </div>
+          <div>
+            <input type="checkbox" id='logo-design' name="Logo Design" value="logo-design">
+            <label for="logo-design">Logo Design</label>
+          </div>
+          <div>
+            <input type="checkbox" id='other' name="Other" value="other">
+            <label for="other">Other</label>
+          </div>
+        </div>
+        <textarea name="Message" id="" cols="30" rows="10" class="contact-message"
+          placeholder="Tell us about your business, your project, and your goals..."></textarea>
+        <p class='contact-form-error contact-hide-error'>Error. All text fields must be completed.</p>
+
+        <div onclick="submitContactForm()" class="contact-form-fake-button">Send Message</div>
+        <button class="contact-form-real-button">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Contact FAQ -->
+    <section class='faq-section'>
+      <h2>F.A.Q</h2>
+      <ul uk-accordion="collapsible: false">
+        <li>
+          <a href="#" class="uk-accordion-title">How Long Is The Process?</a>
+          <div class="uk-accordion-content">
+            <p>
+              Most design experiences last 2-4 weeks. However, these time-frames depend on a few factors—the amount of
+              work
+              your
+              project requires and your timely communication throughout the process
+            </p>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="uk-accordion-title">How Does Payment Work?</a>
+          <div class="uk-accordion-content">
+            <p>
+              To reserve a spot on our client calendar, we require a signed contract and 50% down payment. The remaining
+              balance
+              is due upon the project completion.
+            </p>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="uk-accordion-title">Will My Design Be Unique?</a>
+          <div class="uk-accordion-content">
+            <p>
+              Absolutely. Each client requires a unique approach. Which is why we start each project with an in-depth
+              questionnaire. This helps us create a brand or logo for your unique business with intention and creative
+              strategy.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <!-- <h3>How Long Is The Process?</h3>
+      <p>
+        Most design experiences last 2-4 weeks. However, these time-frames depend on a few factors—the amount of work
+        your
+        project requires and your timely communication throughout the process
+      </p>
+      <h3>How Does Payment Work?</h3>
+      <p>
+        To reserve a spot on our client calendar, we require a signed contract and 50% down payment. The remaining
+        balance
+        is due upon the project completion.
+      </p>
+      <h3>Will My Design Be Unique?</h3>
+      <p>
+        Absolutely. Each client requires a unique approach. Which is why we start each project with an in-depth
+        questionnaire. This helps us create a brand or logo for your unique business with intention and creative
+        strategy.
+      </p> -->
+    </section>
+  </main>
+
+
   <!-- Footer Section -->
-  <footer>
-    <p>&copy; Nordikuh LLC, 2019</p>
+  <footer class="footer-section">
+    <div class="social-media-icon-section">
+      <a href="#" class="social-media-icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-media-icon"><i class="fab fa-pinterest-p"></i></a>
+      <a href="#" class="social-media-icon"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p class="copywrite">&copy; Nordikuh LLC, 2019</p>
   </footer>
 </body>
 

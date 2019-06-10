@@ -6,23 +6,30 @@ function validateName(name) {
 }
 
 function submitContactForm() {
+  console.log('form submitted');
   var name = document.querySelector('.contact-name').value;
+  var businesName = document.querySelector('.contact-business-name').value;
   var email = document.querySelector('.contact-email').value;
+  var location = document.querySelector('.contact-location').value;
+  var hearAboutUs = document.querySelector('.contact-hear').value;
   var message = document.querySelector('.contact-message').value;
   var error = document.querySelector('.contact-form-error');
 
   console.log('name:', name);
   console.log('email:', email);
+  console.log('businesName:', businesName);
+  console.log('hearAboutUs:', hearAboutUs);
+  console.log('location:', location);
   console.log('message:', message);
 
-  if (name != '' && email != '' && message != '') {
+  if (name != '' && email != '' && message != '' && businesName != '' && location != '' && hearAboutUs != '') {
     // no error occured
     console.log('form submitted');
     console.log('error :', error);
     if (!document.querySelector('.contact-form-error').classList.contains('contact-hide-error')) {
       error.classList.add('contact-hide-error');
     }
-    document.querySelector('.contact-us-real-button').click();
+    document.querySelector('.contact-form-real-button').click();
   } else {
     // error occured
     console.log('Error: All fields must be filled out.');
