@@ -8,6 +8,12 @@
     src: url(fonts/Alice-Regular.ttf);
   }
 
+@font-face {
+    font-family: Playfair;
+    font-display: auto;
+    src: url(fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+  }
+
 
   // custom colors for Nordikuh
   $nordic-purle: #581793;
@@ -37,6 +43,8 @@ a {
     border: 0;
     overflow-x: hidden;
     scroll-behavior: smooth;
+
+
   }
 
   html {
@@ -274,9 +282,28 @@ a {
     padding-right: 3rem;
 
     .logo-section {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        // -webkit-box-align: center;
+        // -ms-flex-align: center;
+        // align-items: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+        // background-color: $lollipop-blue;
+
         // -ms-flex-item-align: start;
         // align-self: flex-start;
         h1 {
+            margin-left: 0.5rem;
             // color: $nordic-purle;
             font-family: "Alice", sans-serif, Arial, "Helvetica Neue", Helvetica;
         }   font-weight: 400;
@@ -552,6 +579,7 @@ a {
 
     margin-top: 9rem;
 
+
     .copywrite {
         margin-bottom: 1rem;
     }
@@ -574,6 +602,7 @@ a {
         flex-wrap: wrap;
 
         margin-bottom: 1.7rem;
+        font-weight: 400;
 
         .social-media-icon {
             // width: 2rem;

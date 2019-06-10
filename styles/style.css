@@ -10,8 +10,9 @@
 html {
   box-sizing: border-box;
   /* 1 */
-  font-family: sans-serif, Arial, "Helvetica Neue", Helvetica;
-  /* 2 */ }
+  font-family: "Playfair", sans-serif, Arial, "Helvetica Neue", Helvetica;
+  /* 2 */
+  font-weight: 600; }
 
 *,
 *::before,
@@ -368,6 +369,10 @@ template {
   font-family: Alice;
   font-display: auto;
   src: url(fonts/Alice-Regular.ttf); }
+@font-face {
+  font-family: Playfair;
+  font-display: auto;
+  src: url(fonts/Playfair_Display/PlayfairDisplay-Regular.ttf); }
 a {
   text-decoration: none;
   color: inherit; }
@@ -547,8 +552,21 @@ select {
   padding-left: 3rem;
   padding-right: 3rem; }
   .navbar-section .logo-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     font-weight: 400; }
     .navbar-section .logo-section h1 {
+      margin-left: 0.5rem;
       font-family: "Alice", sans-serif, Arial, "Helvetica Neue", Helvetica; }
   .navbar-section img {
     margin-top: 1rem; }
@@ -744,7 +762,8 @@ select {
     align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-bottom: 1.7rem; }
+    margin-bottom: 1.7rem;
+    font-weight: 400; }
     .footer-section .social-media-icon-section .social-media-icon {
       margin-left: 0.5rem; }
       .footer-section .social-media-icon-section .social-media-icon:first-of-type {
