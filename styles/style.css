@@ -589,7 +589,7 @@ select {
     .navbar-section .navbar a {
       margin-left: 3rem;
       font-weight: 600;
-      font-family: Alice, sans-serif, Arial, "Helvetica Neue", Helvetica;
+      font-family: "Playfair", sans-serif, Arial, "Helvetica Neue", Helvetica;
       font-size: 120%; }
       .navbar-section .navbar a:first-of-type {
         margin-left: 0; }
