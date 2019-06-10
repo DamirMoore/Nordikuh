@@ -633,8 +633,11 @@ select {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     text-align: center; }
+    .main-contact-section .contact-intro-section h2 {
+      font-family: "Playfair", sans-serif, Arial, "Helvetica Neue", Helvetica; }
     .main-contact-section .contact-intro-section h3 {
-      margin-top: 3rem; }
+      margin-top: 3rem;
+      font-family: "Playfair", sans-serif, Arial, "Helvetica Neue", Helvetica; }
     .main-contact-section .contact-intro-section p {
       width: 70%;
       margin-top: 0.5rem; }
