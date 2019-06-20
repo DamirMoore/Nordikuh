@@ -11,15 +11,15 @@
   <title>Nordikuh - Branding and Logo Design</title>
 
   <!-- css imports -->
-  <!-- <link rel='stylesheet' type='text/css' media='screen' href='styles/uikit.css'> -->
+  <link rel='stylesheet' type='text/css' media='screen' href='styles/uikit.css'>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
   <link rel="icon" type="image/png" href="images/Maven Consulting favicon.png">
 
   <!-- js imports -->
-  <!-- <script src='js/uikit.min.js'></script>
-    <script src='js/uikit-icons.min.js'></script> -->
+  <script src='js/uikit.min.js'></script>
+  <!-- <script src='js/uikit-icons.min.js'></script> -->
   <script src="js/respond.js/respond.js"></script>
   <script src="js/lazysizes.js" async=""></script>
   <script src='js/main.js'></script>
@@ -91,7 +91,7 @@
         <p>
           Building a brand that captures the essence of who you are is not just a process—it's a journey of discovery.
         </p>
-        <a href="contact.html">Get Started</a>
+        <a class="nordikuh-playfair-font" href="contact.html">Get Started</a>
       </div>
       <img src="images/jumbotron illustration.png" alt="Nordikuh - Branding & Logo Design">
     </section>
@@ -187,18 +187,50 @@
 
     <!-- Portfolio Section -->
     <section class="home-portfolio-sample-section">
-      <div class="home-portfolio-sample-group">
+      <div class="home-portfolio-sample-group" uk-lightbox="animation: slide">
         <div class="home-portfolio-sample-item">
-          <div><img src="images/bookers1.jpg" alt="Nordikuh Portfolio Item"></div>
-          <div><img src="images/bookers2.jpg" alt="Nordikuh Portfolio Item"></div>
-          <div><img src="images/bookers3.jpg" alt="Nordikuh Portfolio Item"></div>
-          <div><img src="images/bookers6.jpg" alt="Nordikuh Portfolio Item"></div>
+          <div>
+            <a href="images/bookers1.jpg" data-caption="Bookers - Bookstore & Cafe">
+              <img src="images/bookers1.jpg" alt="Nordikuh Portfolio Item">
+            </a>
+          </div>
+          <div>
+            <a href="images/bookers2.jpg" data-caption="Bookers - Bookstore & Cafe">
+              <img src="images/bookers2.jpg" alt="Nordikuh Portfolio Item">
+            </a>
+          </div>
+          <div>
+            <a href="images/bookers3.jpg" data-caption="Bookers - Bookstore & Cafe">
+              <img src="images/bookers3.jpg" alt="Nordikuh Portfolio Item">
+            </a>
+          </div>
+          <div>
+            <a href="images/bookers6.jpg" data-caption="Bookers - Bookstore & Cafe">
+              <img src="images/bookers6.jpg" alt="Nordikuh Portfolio Item">
+            </a>
+          </div>
         </div>
         <div class="home-portfolio-sample-item">
-          <div><img src="images/njord1.jpg" alt="Nordikuh Portfolio Item"></div>
-          <div><img src="images/njord3.jpg" alt="Nordikuh Portfolio Item"></div>
-          <div><img src="images/njord4.jpg" alt="Nordikuh Portfolio Item"></div>
-          <div><img src="images/njord5.jpg" alt="Nordikuh Portfolio Item"></div>
+          <div>
+            <a href="images/njord1.jpg" data-caption="NJORD - Beauty Supplies">
+              <img src="images/njord1.jpg" alt="Nordikuh Portfolio Item">
+            </a>
+          </div>
+          <div>
+            <a href="images/njord3.jpg" data-caption="NJORD - Beauty Supplies">
+              <img src="images/njord3.jpg" alt="Nordikuh Portfolio Item">
+            </a>
+          </div>
+          <div>
+            <a href="images/njord4.jpg" data-caption="NJORD - Beauty Supplies">
+              <img src="images/njord4.jpg" alt="Nordikuh Portfolio Item">
+            </a>
+          </div>
+          <div>
+            <a href="images/njord5.jpg" data-caption="NJORD - Beauty Supplies">
+              <img src="images/njord5.jpg" alt="Nordikuh Portfolio Item">
+            </a>
+          </div>
         </div>
       </div>
       <a class="home-portfolio-sample-button nordikuh-playfair-font" href="portfolio.html">Explore More</a>
