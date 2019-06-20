@@ -128,6 +128,10 @@ a {
     padding-bottom: 1rem;
   }
 
+  h1, h2, h3 {
+    font-family: "Playfair", sans-serif, Arial, "Helvetica Neue", Helvetica;
+  }
+
 
 
 
@@ -1602,6 +1606,9 @@ a {
 
 .nordikuh-alice-font {
     font-family: "Alice", sans-serif, Arial, "Helvetica Neue", Helvetica;
+}
+.nordikuh-playfair-font {
+    font-family: "Playfair", sans-serif, Arial, "Helvetica Neue", Helvetica;
 }
 .nordic-purple {
     color: $nordic-purle;

@@ -9,9 +9,18 @@
 * 2. Change the default font family in all browsers (opinionated).
 */
 
+
+@font-face {
+    font-family: Alice;
+    font-display: auto;
+    src: url(fonts/Alice-Regular.ttf);
+  }
+
+
+
 html {
     box-sizing: border-box; /* 1 */
-    font-family: "Playfair", sans-serif, Arial, "Helvetica Neue", Helvetica; /* 2 */
+    font-family: "Alice", sans-serif, Arial, "Helvetica Neue", Helvetica; /* 2 */
     font-weight: 600;
 }
 

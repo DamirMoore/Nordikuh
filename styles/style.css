@@ -7,10 +7,14 @@
 *    https://goo.gl/pYtbK7.
 * 2. Change the default font family in all browsers (opinionated).
 */
+@font-face {
+  font-family: Alice;
+  font-display: auto;
+  src: url(fonts/Alice-Regular.ttf); }
 html {
   box-sizing: border-box;
   /* 1 */
-  font-family: "Playfair", sans-serif, Arial, "Helvetica Neue", Helvetica;
+  font-family: "Alice", sans-serif, Arial, "Helvetica Neue", Helvetica;
   /* 2 */
   font-weight: 600; }
 
@@ -450,6 +454,9 @@ select {
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem; }
+
+h1, h2, h3 {
+  font-family: "Playfair", sans-serif, Arial, "Helvetica Neue", Helvetica; }
 
 .slide-menu-overlay {
   position: fixed;
@@ -1493,6 +1500,9 @@ select {
 
 .nordikuh-alice-font {
   font-family: "Alice", sans-serif, Arial, "Helvetica Neue", Helvetica; }
+
+.nordikuh-playfair-font {
+  font-family: "Playfair", sans-serif, Arial, "Helvetica Neue", Helvetica; }
 
 .nordic-purple {
   color: #581793; }
