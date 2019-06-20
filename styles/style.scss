@@ -863,6 +863,9 @@ a {
             margin-left: 2rem;
             margin-right: 2rem;
             color: $nordic-purle;
+            font-size: 450%;
+            position: relative;
+            bottom: 2rem;
         }
         }
 
@@ -1231,6 +1234,7 @@ a {
                 color: $nordic-purle;
                 margin-left: 3rem;
                 margin-right: 3rem;
+                font-size: 450%;
             }
         }
 
@@ -1847,7 +1851,7 @@ a {
     }
 }
 
-@media all and (max-width: 895px) and (min-width: 300px) {
+@media all and (max-width: 1100px) and (min-width: 300px) {
     .about-us-main-section {
         .about-us-call-to-action {
             .about-us-call-to-action-group {

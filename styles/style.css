@@ -964,7 +964,10 @@ h1, h2, h3 {
         height: 2rem;
         margin-left: 2rem;
         margin-right: 2rem;
-        color: #581793; }
+        color: #581793;
+        font-size: 450%;
+        position: relative;
+        bottom: 2rem; }
     .about-us-main-section .about-us-call-to-action .about-us-call-action-button {
       background-color: #581793;
       padding-top: 0.9rem;
@@ -1226,7 +1229,8 @@ h1, h2, h3 {
       .main-home-section .home-call-to-action-section .home-cta-icons-section .home-cta-divider {
         color: #581793;
         margin-left: 3rem;
-        margin-right: 3rem; }
+        margin-right: 3rem;
+        font-size: 450%; }
     .main-home-section .home-call-to-action-section .home-call-to-action-button {
       background-color: #581793;
       padding-top: 0.9rem;
@@ -1638,7 +1642,7 @@ h1, h2, h3 {
   .main-home-section .home-services-section .home-services-group .home-services-item:first-of-type {
     margin-right: 0;
     margin-bottom: 2rem; } }
-@media all and (max-width: 895px) and (min-width: 300px) {
+@media all and (max-width: 1100px) and (min-width: 300px) {
   .about-us-main-section .about-us-call-to-action .about-us-call-to-action-group {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
