@@ -383,8 +383,8 @@ a {
     flex-wrap: wrap;
 
     // background-color: $posiden-green;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    // padding-left: 3rem;
+    // padding-right: 3rem;
     padding-top: 4rem;
 
     .contact-intro-section {
@@ -546,6 +546,29 @@ a {
                 }
             }
         }
+    }
+
+    .contact-faq-section-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+        background-color: #fff;
+        width: 100%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 
     .faq-section {
