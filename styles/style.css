@@ -1414,6 +1414,9 @@ h1, h2, h3 {
         padding-right: 4rem;
         color: #fff;
         border-radius: 30px; }
+  .services-main-section .services-process-title {
+    font-size: 250%;
+    margin-top: 1rem; }
   .services-main-section .services-process-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1427,7 +1430,7 @@ h1, h2, h3 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 8rem; }
+    margin-top: 3rem; }
     .services-main-section .services-process-section .services-process-item {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1469,6 +1472,8 @@ h1, h2, h3 {
     background-color: #fff;
     padding-top: 9rem;
     padding-bottom: 9rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     width: 100%; }
     .services-main-section .services-call-to-action h1 {
       margin-bottom: 2rem; }
@@ -1481,26 +1486,32 @@ h1, h2, h3 {
       color: #fff;
       border-radius: 30px; }
   .services-main-section .services-faq-section {
-    width: 70%; }
-    .services-main-section .services-faq-section ul {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-align: start;
-      -ms-flex-align: start;
-      align-items: flex-start;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      -ms-flex-item-align: start;
-      align-self: flex-start;
-      text-align: start; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    width: 100%; }
+    .services-main-section .services-faq-section .services-faq-title {
+      margin-bottom: 1rem; }
+    .services-main-section .services-faq-section div {
+      width: 70%; }
+      .services-main-section .services-faq-section div ul {
+        text-align: start; }
+        .services-main-section .services-faq-section div ul p {
+          width: 100%; }
 
 .nordikuh-alice-font {
   font-family: "Alice", sans-serif, Arial, "Helvetica Neue", Helvetica; }
@@ -1585,7 +1596,94 @@ h1, h2, h3 {
     .services-main-section .services-items-section .services-item .service-item-intro {
       height: 22rem; }
     .services-main-section .services-items-section .services-item .service-item-inner {
-      padding-right: 0.5rem; } }
+      padding-right: 0.5rem; }
+  .services-main-section .services-call-to-action {
+    background: none;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+    width: 100%; }
+    .services-main-section .services-call-to-action h1 {
+      margin-bottom: 2rem; }
+    .services-main-section .services-call-to-action .services-call-to-action-button {
+      background-color: #581793;
+      padding-top: 0.9rem;
+      padding-bottom: 0.9rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      color: #fff;
+      border-radius: 30px; }
+  .services-main-section .services-process-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background-color: #fff;
+    width: 100%;
+    margin-top: 1rem; }
+    .services-main-section .services-process-section .services-process-item {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      width: 15rem;
+      padding-top: 1rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      margin-bottom: 3rem; }
+      .services-main-section .services-process-section .services-process-item .service-process-number {
+        background-color: rgba(100, 100, 100, 0.1);
+        height: 7rem;
+        width: 7rem;
+        margin-bottom: 2rem; }
+  .services-main-section .services-faq-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+    .services-main-section .services-faq-section div {
+      width: 90%; }
+      .services-main-section .services-faq-section div ul {
+        text-align: start; }
+        .services-main-section .services-faq-section div ul p {
+          width: 100%; } }
 @media all and (max-width: 370px) and (min-width: 300px) {
   .services-main-section .services-items-section .services-item {
     width: 90%;

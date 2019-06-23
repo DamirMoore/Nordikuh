@@ -1483,6 +1483,11 @@ a {
         }
     }
 
+    .services-process-title {
+        font-size: 250%;
+        margin-top: 1rem;
+    }
+
     .services-process-section {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1504,7 +1509,7 @@ a {
 
         // background-color: coral;
         width: 100%;
-        margin-top: 8rem;
+        margin-top: 3rem;
 
         .services-process-item {
             display: -webkit-box;
@@ -1558,6 +1563,8 @@ a {
         background-color: #fff;
         padding-top: 9rem;
         padding-bottom: 9rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
         width: 100%;
 
         h1 {
@@ -1576,31 +1583,66 @@ a {
     }
 
     .services-faq-section {
-        width: 70%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        // -webkit-box-align: start;
+        // -ms-flex-align: start;
+        // align-items: flex-start;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+        width: 100%;
+        // background-color: $lollipop-blue;
 
-        ul {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            -webkit-box-align: start;
-            -ms-flex-align: start;
-            align-items: flex-start;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            -ms-flex-item-align: start;
-            align-self: flex-start;
-
-
-            text-align: start;
-            // background-color: $lollipop-blue;
+        .services-faq-title {
+            margin-bottom: 1rem;
         }
+
+        div {
+            width: 70%;
+            // background-color: coral;
+
+            ul {
+                // display: -webkit-box;
+                // display: -ms-flexbox;
+                // display: flex;
+                // -webkit-box-pack: center;
+                // -ms-flex-pack: center;
+                // justify-content: center;
+                // -webkit-box-orient: vertical;
+                // -webkit-box-direction: normal;
+                // -ms-flex-direction: column;
+                // flex-direction: column;
+                // -webkit-box-align: start;
+                // -ms-flex-align: start;
+                // align-items: flex-start;
+                // -ms-flex-wrap: wrap;
+                // flex-wrap: wrap;
+                // -ms-flex-item-align: start;
+                // align-self: flex-start;
+
+
+                text-align: start;
+                // background-color: $lollipop-blue;
+
+                p {
+                    width: 100%;
+                }
+            }
+        }
+
     }
 }
 
@@ -1738,6 +1780,146 @@ a {
                     padding-right: 0.5rem;
                 }
             }
+        }
+
+        .services-call-to-action {
+            background: none;
+            padding-top: 9rem;
+            padding-bottom: 9rem;
+            width: 100%;
+
+            h1 {
+                margin-bottom: 2rem;
+            }
+
+            .services-call-to-action-button {
+                background-color: $nordic-purle;
+                padding-top: 0.9rem;
+                padding-bottom: 0.9rem;
+                padding-left: 4rem;
+                padding-right: 4rem;
+                color: #fff;
+                border-radius: 30px;
+            }
+        }
+
+        .services-process-section {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -ms-flex-pack: distribute;
+            justify-content: space-around;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+
+            // background-color: coral;
+            background-color: #fff;
+            width: 100%;
+            margin-top: 1rem;
+
+            .services-process-item {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                // -webkit-box-pack: center;
+                // -ms-flex-pack: center;
+                // justify-content: center;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+
+                width: 15rem;
+                padding-top: 1rem;
+                padding-left: 0.5rem;
+                padding-right: 0.5rem;
+                margin-bottom: 3rem;
+                // background-color: $lollipop-blue;
+
+                .service-process-number {
+                    background-color: $gray-100;
+                    height: 7rem;
+                    width: 7rem;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+
+        .services-faq-section {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            // -webkit-box-align: start;
+            // -ms-flex-align: start;
+            // align-items: flex-start;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -ms-flex-item-align: start;
+            align-self: flex-start;
+
+            width: 100%;
+            background-color: #fff;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+
+            div {
+                width: 90%;
+                // background-color: coral;
+
+                ul {
+                    // display: -webkit-box;
+                    // display: -ms-flexbox;
+                    // display: flex;
+                    // -webkit-box-pack: center;
+                    // -ms-flex-pack: center;
+                    // justify-content: center;
+                    // -webkit-box-orient: vertical;
+                    // -webkit-box-direction: normal;
+                    // -ms-flex-direction: column;
+                    // flex-direction: column;
+                    // -webkit-box-align: start;
+                    // -ms-flex-align: start;
+                    // align-items: flex-start;
+                    // -ms-flex-wrap: wrap;
+                    // flex-wrap: wrap;
+                    // -ms-flex-item-align: start;
+                    // align-self: flex-start;
+
+
+                    text-align: start;
+                    // background-color: $lollipop-blue;
+
+                    p {
+                        width: 100%;
+                    }
+                }
+            }
+
         }
     }
 }
