@@ -520,7 +520,7 @@ h1, h2, h3 {
       font-size: 120%;
       text-align: center;
       color: #666666;
-      font-family: Westcraft, sans-serif, Arial, "Helvetica Neue", Helvetica; }
+      font-family: Alice, sans-serif, Arial, "Helvetica Neue", Helvetica; }
       .slide-menu-container .slide-menu a:last-of-type {
         border-bottom: none; }
       .slide-menu-container .slide-menu a:hover {
@@ -602,6 +602,17 @@ h1, h2, h3 {
       .navbar-section .navbar a:hover {
         opacity: 0.9;
         text-decoration: none; }
+
+.contact-page-skwigly {
+  width: 100%;
+  height: 65rem;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-image: url("../images/contact page scwigly line 1.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%; }
 
 .main-contact-section {
   display: -webkit-box;
@@ -747,7 +758,6 @@ h1, h2, h3 {
     align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    background-color: #fff;
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem; }
@@ -903,6 +913,17 @@ h1, h2, h3 {
     .portfolio-main-section .portfolio-cta-section h2 {
       margin-top: 0.5rem; }
 
+.about-page-skwigly {
+  width: 100%;
+  height: 69rem;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-image: url("../images/about page scwigly line 1.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%; }
+
 .about-us-main-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -984,12 +1005,13 @@ h1, h2, h3 {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       background-color: #fff;
-      box-shadow: 0px 5px 12px rgba(61, 61, 61, 0.4);
+      box-shadow: 0px 0px 13px rgba(61, 61, 61, 0.6);
       width: 60%;
       height: 20rem;
       position: absolute;
       right: 2.5rem;
-      z-index: 1; }
+      z-index: 1;
+      padding-bottom: 1rem; }
     .about-us-main-section .about-us-testimonial-section div:nth-of-type(2) {
       position: absolute;
       right: 0;
@@ -1167,7 +1189,7 @@ h1, h2, h3 {
       position: absolute;
       left: 0;
       top: 0;
-      box-shadow: 7px 5px 10px rgba(61, 61, 61, 0.5); }
+      box-shadow: 0px 0px 25px #3d3d3d; }
     .main-home-section .home-jumbotron-section .jumbotron-text-group {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1186,7 +1208,7 @@ h1, h2, h3 {
       flex-wrap: wrap;
       background-color: #fff;
       width: 33rem;
-      box-shadow: 2px 5px 20px rgba(61, 61, 61, 0.6);
+      box-shadow: 0px 0px 13px rgba(61, 61, 61, 0.6);
       position: absolute;
       left: 6rem;
       bottom: -13rem;
@@ -1354,7 +1376,7 @@ h1, h2, h3 {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       background-color: #fff;
-      box-shadow: -6px 5px 10px rgba(61, 61, 61, 0.3);
+      box-shadow: 0px 0px 15px rgba(61, 61, 61, 0.6);
       width: 42rem;
       padding: 1rem;
       padding-top: 2rem;
@@ -1501,6 +1523,17 @@ h1, h2, h3 {
       border-radius: 30px;
       margin-top: 2rem; }
 
+.services-page-skwigly {
+  width: 100%;
+  height: 69rem;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-image: url("../images/services page scwigly line 1.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%; }
+
 .services-main-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1577,6 +1610,8 @@ h1, h2, h3 {
       height: 61rem;
       padding-top: 0;
       margin-bottom: 3rem; }
+      .services-main-section .services-items-section .services-item:nth-of-type(2) .service-item-inner {
+        background-color: #fff; }
       .services-main-section .services-items-section .services-item .service-item-intro {
         padding-bottom: 2rem;
         padding-right: 1rem;
@@ -1628,7 +1663,7 @@ h1, h2, h3 {
         margin-bottom: 3.2rem;
         padding-bottom: 2rem;
         padding-top: 3rem;
-        box-shadow: -8px 5px 10px rgba(61, 61, 61, 0.3); }
+        box-shadow: 0px 0px 12px rgba(61, 61, 61, 0.5); }
         .services-main-section .services-items-section .services-item .service-item-inner div:first-of-type {
           margin-left: 5rem; }
           .services-main-section .services-items-section .services-item .service-item-inner div:first-of-type p {
@@ -1660,6 +1695,7 @@ h1, h2, h3 {
     flex-direction: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    background-color: coral;
     width: 100%;
     margin-top: 3rem; }
     .services-main-section .services-process-section .services-process-item {
@@ -1673,7 +1709,8 @@ h1, h2, h3 {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       width: 37rem;
-      margin-bottom: 3rem; }
+      margin-bottom: 3rem;
+      background-color: #32bdb6; }
       .services-main-section .services-process-section .services-process-item .service-process-number {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1803,6 +1840,15 @@ h1, h2, h3 {
 .nordic-purple {
   color: #581793; }
 
+@media all and (min-width: 1800px) {
+  .about-page-skwigly {
+    height: 75rem; } }
+@media all and (min-width: 1400px) {
+  .contact-page-skwigly {
+    height: 105rem; } }
+@media all and (min-width: 1300px) {
+  .services-page-skwigly {
+    height: 95rem; } }
 @media all and (max-width: 335px) and (min-width: 300px) {
   .about-us-main-section .about-us-portfolio-sample-section .about-us-portfolio-sample-group {
     display: -webkit-box;
@@ -1870,6 +1916,20 @@ h1, h2, h3 {
   .main-contact-section {
     padding-left: 0;
     padding-right: 0; } }
+@media all and (max-width: 600px) and (min-width: 506px) {
+  .services-main-section .services-process-section .services-process-item {
+    width: 90%;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 3rem;
+    background-color: #CE5667; }
+    .services-main-section .services-process-section .services-process-item .service-process-number {
+      height: 7rem;
+      width: 7rem;
+      margin-bottom: 2rem; }
+    .services-main-section .services-process-section .services-process-item .services-process-description {
+      width: 65%; } }
 @media all and (max-width: 505px) and (min-width: 300px) {
   .services-main-section .services-items-section .services-item {
     width: 90%;
@@ -1918,25 +1978,29 @@ h1, h2, h3 {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: vertical;
+      -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: row;
+      flex-direction: row;
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-      width: 15rem;
+      width: 90%;
       padding-top: 1rem;
       padding-left: 0.5rem;
       padding-right: 0.5rem;
-      margin-bottom: 3rem; }
+      margin-bottom: 3rem;
+      background-color: #fff; }
       .services-main-section .services-process-section .services-process-item .service-process-number {
-        background-color: rgba(100, 100, 100, 0.1);
         height: 7rem;
         width: 7rem;
         margin-bottom: 2rem; }
+      .services-main-section .services-process-section .services-process-item .services-process-description {
+        width: 65%; }
+        .services-main-section .services-process-section .services-process-item .services-process-description p {
+          font-size: 80%; }
   .services-main-section .services-faq-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1965,6 +2029,25 @@ h1, h2, h3 {
         text-align: start; }
         .services-main-section .services-faq-section div ul p {
           width: 100%; } }
+@media all and (max-width: 373px) and (min-width: 300px) {
+  .services-main-section .services-process-section {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+    .services-main-section .services-process-section .services-process-item {
+      width: 90%;
+      padding-top: 1rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      margin-bottom: 3rem;
+      background-color: orange; }
+      .services-main-section .services-process-section .services-process-item .service-process-number {
+        height: 7rem;
+        width: 7rem;
+        margin-bottom: 2rem; }
+      .services-main-section .services-process-section .services-process-item .services-process-description {
+        width: 65%; } }
 @media all and (max-width: 370px) and (min-width: 300px) {
   .services-main-section .services-items-section .services-item {
     width: 90%;
