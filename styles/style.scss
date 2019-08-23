@@ -2338,6 +2338,7 @@ a {
       }
 
     .footer-section {
+        flex-direction: column-reverse;
         .social-media-icon-section {
             position: static;
             // background-color: $lollipop-blue;

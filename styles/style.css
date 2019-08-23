@@ -1961,8 +1961,10 @@ h1, h2, h3 {
     position: relative;
     left: 2rem; }
 
-  .footer-section .social-media-icon-section {
-    position: static; }
+  .footer-section {
+    flex-direction: column-reverse; }
+    .footer-section .social-media-icon-section {
+      position: static; }
 
   .about-us-main-section .about-us-testimonial-section div:first-of-type {
     width: 80%; } }
